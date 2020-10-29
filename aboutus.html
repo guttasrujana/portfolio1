@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .topnav {
+  background-color: white;
+  overflow: hidden;
+ 
+/*    border: 1px solid black;*/
+}
+.topnav a {
+/*  color: #f2f2f2;*/
+  float: right;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: black;
+/*  font-size: 15px;*/
+  text-transform: uppercase;
+  text-shadow: 10px;
+
+
+    
+font-family: "Helvetica Neue",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+/*
+    color: black;
+  
+*/
+}
+.topnav a:hover {
+  
+  font-family: bold;
+  font-family: "Helvetica Neue",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: gainsboro;
+  
+}
+    
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+.container1 p{
+   padding: 30px; 
+  height:150px;
+  width:1100px;
+  margin: auto;
+  box-shadow: 5px 10px 50px 10px  #888888;         
+        }
+        div.container2{
+            padding: 20px; 
+  height:230px;
+  width:1100px;
+  margin: auto;
+  box-shadow: 5px 10px 50px 10px  #888888;
+            
+        }
+
+    
+    </style>
+    
+    </head>
+<body>
+    <div class="topnav" id="mytopnav">
+  <img src='1.jpg' width="200px" height="50px">
+      <a href="contact.html">Contact</a>
+<!--
+     <a href="products.html">Products</a>
+    <a href="manufacturing.html">Manufacturing</a>
+-->
+     <a href="quality.html">Quality</a>
+     <a href="ourvision.html" >Our vision,Mission & values</a>
+<!--    <a href="contact.html">Contact</a>-->
+    <a href="products.html">Products</a>
+    <a href="manufacturing.html">Manufacturing</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="aboutus.html">About us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="aboutus">
+        <img src="5.jpg" width="1265px" height="150px">
+    </div><br><br>
+    <div class="container1"> 
+  <p>Innovation in the field of medicine and pharmaceuticals is an ongoing process. The objective is to provide Cost effective quality medicine. Joshika Pharma Pvt. Ltd. has started its journey in 2016 with an objective to manufacture and market innovative pharmaceutical products to the customer’s satisfaction.
+        
+The company’s forte is the customized development and manufacturing of Modified Release Pellets of various Active Pharmaceutical Ingredients (APIs) including different combination blends in Ready - To - Fill form.
+A team of qualified and experienced technical personnel, well equipped manufacturing facility and Quality Control, documentation system conforming to cGMP requirements, have been instrumental in maintaining our premium position in the Pharma Industry for the manufacture of pellets and Capsules.</p>
+</div>
+    <h1 class="busmod" style="font-family: Calibri;text-align: center">BUSINESS MODEL</h1>
+    
+    <div class="container2" style="width: 100px;>
+        <ul>
+        <li>Supply of pellets & Capsules in bulk</li>
+        <li>Joint venture from development to commercialization of products</li>
+        <li>Contract manufacturing for pellets & finished form (capsules)</li>
+        <li>Out license manufacturing technology</li>
+        </ul>
+        <p>The Company’s Drug Delivery System development thrust is based on following principles:</p>
+        <ul>
+        <li>Off Patent Generics</li>
+        <li>Custom development</li>
+        <li>Process Patenting of Technologies</li>
+        <li>Customized Release as per Pharmacokinetic profil</li>
+        
+        </ul>
+        
+    
+    </div>
+     <script>
+function myFunction() {
+  var x = document.getElementById("mytopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+</script>
+    
+    </body>
+
+</html>
